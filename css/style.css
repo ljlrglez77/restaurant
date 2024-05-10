@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Open Sans" sans-serif;
+}   
+.clr{clear: both;}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(133, 50, 2);        
+}
+body{
+    background-color: rgb(133, 50, 2); 
+}
+header{
+    background-color: rgb(133, 50, 2); 
+}
+section{
+    background-color: rgb(133, 50, 2);
+}
+
+.mytop {
+    width: 100%;
+    text-align: center;    
+    color:rgb(133, 50, 2) ;
+    background-color:rgb(224, 161, 42);
+    padding-top:10px ;
+    padding-bottom: 2px;   
+}
+
+
+nav{
+    background-color:rgb(133, 50, 2);
+    /*position: fixed; */
+    width: 100%;
+    
+}
+.menu{
+    /*position: fixed; */
+}
+.menu img{
+    width: 40%;
+}
+.myrow{
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+.myrow a{
+    text-decoration: none;
+    color: rgb(248, 205, 124); 
+}
+.myrow a:hover{
+    text-decoration: underline overline;
+    color: rgb(224, 161, 42);
+}
+.sect1{    
+    height: 100%;
+    background-color: rgb(133, 50, 2);    
+}
+
+.encab{      
+    font-family:Oranienbaum;
+    margin-top: 10px;
+    text-align: center;     
+}
+
+.encab h2{
+    color: rgb(248, 205, 124);
+}
+.encab h4{
+    color: rgb(224, 161, 42);
+}
+
+.encab a{
+    text-decoration: none;
+    color: rgb(248, 205, 124);
+    border: solid rgb(248, 205, 124);
+    padding: 5px;    
+    background-color: rgb(116, 44, 2);
+    border-radius: 10px; 
+    
+}
+.encab a:hover{
+    text-decoration: none;
+    color: rgb(116, 44, 2);
+    border: solid rgb(116, 44, 2);
+    padding: 5px;    
+    background-color: rgb(248, 205, 124);
+    border-radius: 10px;
+}
+
+#hlocation{    
+    background-color: rgb(133, 50, 2) ;   
+ }
+
+.sect2{
+    background-color: rgb(133, 50, 2);
+    color: rgb(248, 205, 124);
+    font-family:Oranienbaum;
+    padding-top: 30px;
+    /*margin-top: 30px; */
+    height: 100vh;
+}
+.sect2 h2{
+    text-align: center;
+    text-decoration: underline overline;
+    padding: 30px;       
+}
+
+.secpart{    
+    display: flex;    
+    background-color:rgb(14, 8, 10);   
+}
+.secpart1 {
+    
+    width:60%;    
+}
+.secpart4{
+    display: flex;
+}
+.secpart2{
+    display: inline-block;
+    width:20%;    
+    background-color: rgb(14, 8, 10);
+    text-align: center;
+    width: 50%;
+}
+.secpart2 h5{
+    padding-top: 10px;
+}
+.secpart3{
+    display: inline-block;
+    width:20%;    
+    background-color: rgb(14, 8, 10);
+    text-align: center;
+    width: 50%;
+}
+.secpart3 p{
+    padding-top: 20px;
+}
+.secpart1 img {
+    width: 100%;
+}
+.secpart3 a{
+    text-decoration: none;
+    color: rgb(248, 205, 124);
+}
+.secpart3 a:hover{
+    text-decoration: underline overline;
+    color: rgb(224, 161, 42);
+}
+
+
+
+.secpart5{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.secpart5 a{
+    text-decoration: none;
+    color: rgb(248, 205, 124);
+}
+.secpart5 a:hover{
+    text-decoration: underline overline;
+    color: rgb(224, 161, 42);
+}
+.inter{
+    height: 40px;
+    background-color:rgb(14, 8, 10);    
+}
+#mymenus{
+    height: 100%;
+    background-color: rgb(116, 44, 2);
+}
+.terpart1{
+    color: rgb(248, 205, 124);
+    font-family: "Open Sans" ;
+
+}
+.terpart1 h2{
+    text-decoration: overline underline;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.terpart02 img {
+    padding-top: 10px;
+    width: 60%;
+}
+.terpart2 {
+    text-align: right;
+}
+
+.terpart3 img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.myfooter{
+    text-align: center;
+    color: rgb(248, 205, 124);
+    font-family: "Open Sans" ;
+    text-decoration: none;
+    padding-top: 10px;
+    background-color:rgb(133, 50, 2);/*rgb(116, 44, 2);*/
+}
+.myfooter a{
+    text-decoration: none;
+    color: rgb(248, 205, 124);
+}
+.myfooter a:hover{
+    text-decoration: underline overline;
+    color: rgb(224, 161, 42);
+}
+.mycard{
+    width: 20rem; 
+    background-color:rgb(14, 8, 10)!important;
+    text-align: center;
+    color: rgb(248, 205, 124);
+    font-family: "Open Sans" ;
+}
+.mycard h5{
+    text-decoration: underline overline;
+    padding-bottom: 10px;
+}
